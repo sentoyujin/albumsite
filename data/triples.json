@@ -85,7 +85,7 @@
       "artist": "TripleS",
       "year": 2024,
       "format": "CD",
-      "cover": "assets/triples/PERFORMANTE.png",
+      "cover": "assets/triples/prfmnt.png",
       "tracks": [
         { "title": "Visual Virtue", "duration": "00:49" },
         { "title": "Hit the Floor", "duration": "02:57" },
