@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Album — My Record Shelf</title>
+  <link rel="stylesheet" href="album-style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,400&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <a href="group.html" class="back-btn">← Back to Group</a>
+
+  <div class="page">
+    <div class="cover-col">
+      <div class="cover-wrap">
+        <img id="album-cover" src="" alt="Album Cover" class="cover-img" height="600" />
+      </div>
+      <div class="format-badge" id="album-format"></div>
+    </div>
+
+    <div class="info-col">
+      <p class="artist-name" id="album-artist"></p>
+      <h1 class="album-name" id="album-title"></h1>
+      <p class="year" id="album-year"></p>
+
+      <div class="divider"></div>
+
+      <div class="tracklist">
+        <h2 class="section-label">Tracklist</h2>
+        <ol class="tracks" id="track-list">
+          <!-- Tracks injected here by script.js -->
+        </ol>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>

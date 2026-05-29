@@ -1,0 +1,159 @@
+/* ── Reset & Base ── */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #111118;
+  color: #e8e8e8;
+  font-family: 'DM Sans', sans-serif;
+  min-height: 100vh;
+  padding: 30px 30px;
+}
+
+/* ── Back Button ── */
+.back-btn {
+  display: inline-block;
+  margin-bottom: 32px;
+  text-decoration: none;
+  color: #b0b0b0;
+  font-size: 0.95rem;
+  transition: color 0.2s ease;
+}
+
+.back-btn:hover {
+  color: #ffffff;
+}
+
+/* ── Layout ── */
+.page {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 500px 1fr;
+  gap: 64px;
+  align-items: start;
+}
+
+/* ── Cover ── */
+.cover-wrap {
+  width: 100%;
+  border-radius: 18px;
+  overflow: hidden;
+  border: 1px solid #2a2a38;
+  background-color: #1c1c26;
+}
+
+.cover-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+.format-badge {
+  margin-top: 18px;
+  display: inline-block;
+  padding: 8px 14px;
+  border-radius: 999px;
+  background-color: #1f1f2b;
+  border: 1px solid #303040;
+  color: #bdbdbd;
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+/* ── Album Info ── */
+.artist-name {
+  font-size: 0.95rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #8e8e98;
+  margin-bottom: 10px;
+}
+
+.album-name {
+  font-family: 'Playfair Display', serif;
+  font-size: 4rem;
+  line-height: 1.05;
+  color: #f5f0e8;
+  margin-bottom: 16px;
+}
+
+.year {
+  font-size: 1rem;
+  color: #9c9ca5;
+}
+
+/* ── Divider ── */
+.divider {
+  height: 1px;
+  background-color: #2b2b38;
+  margin: 20px 0;
+}
+
+/* ── Tracklist ── */
+.section-label {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.4rem;
+  margin-bottom: 20px;
+  color: #f2eee6;
+}
+
+.tracks {
+  list-style-position: inside;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.tracks li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 14px 18px;
+  background-color: #1c1c26;
+  border: 1px solid #2a2a38;
+  border-radius: 10px;
+  color: #d8d8df;
+  transition: border-color 0.2s ease, transform 0.2s ease;
+}
+
+.tracks li:hover {
+  border-color: #4a4a5f;
+  transform: translateX(4px);
+}
+
+/* ── Responsive ── */
+@media (max-width: 980px) {
+  .page {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
+
+  .cover-col {
+    max-width: 500px;
+  }
+
+  .album-name {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 28px 18px;
+  }
+
+  .album-name {
+    font-size: 2.2rem;
+  }
+
+  .tracks li {
+    padding: 12px 14px;
+  }
+}

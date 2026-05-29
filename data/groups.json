@@ -1,0 +1,16 @@
+[
+  {
+    "name": "triples",
+    "displayName": "TripleS",
+    "cover": "assets/triples/tripleslogo.png",
+    "file": "triples.json",
+    "order": 1
+  },
+  {
+    "name": "lesserafim",
+    "displayName": "LE SSERAFIM",
+    "cover": "assets/lesserafim/lsflogo.png",
+    "file": "lesserafim.json",
+    "order": 2
+  }
+]

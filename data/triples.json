@@ -1,0 +1,205 @@
+{
+  "group": "TripleS",
+  "albums": [
+    {
+      "id": 1,
+      "title": "ASSEMBLE24",
+      "order": 6,
+      "artist": "TripleS",
+      "year": 2024,
+      "format": "CD",
+      "cover": "assets/triples/ASSEMBLE24.png",
+      "tracks": [
+        { "title": "S", "duration": "1:13" },
+        { "title": "Heart Raider", "duration": "2:59" },
+        { "title": "Midnight Flower", "duration": "2:46" },
+        { "title": "White Soul Sneakers", "duration": "3:03" },
+        { "title": "치유 (Chiyu)", "duration": "2:50" },
+        { "title": "24", "duration": "2:33" },
+        { "title": "이면의 이면 (Beyond the Beyond)", "duration": "3:02" },
+        { "title": "Non Scale", "duration": "3:26" },
+        { "title": "Dimension", "duration": "3:17" }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "ASSEMBLE25",
+      "order": 8,
+      "artist": "TripleS",
+      "year": 2025,
+      "format": "CD",
+      "cover": "assets/triples/ASSEMBLE25.png",
+      "tracks": [
+        { "title": "@% (Alpha Percent)", "duration": "1:02" },
+        { "title": "깨어 (Are You Alive)", "duration": "3:06" },
+        { "title": "추리소설 (Detective Soseol)", "duration": "3:20" },
+        { "title": "이제 우리 불꽃놀이 (Firework Diary)", "duration": "3:08" },
+        { "title": "Love Child", "duration": "3:01" },
+        { "title": "Persona", "duration": "3:02" },
+        { "title": "Too Hot", "duration": "3:21" },
+        { "title": "Diablo", "duration": "3:20" },
+        { "title": "Friend Zone", "duration": "3:17" },
+        { "title": "Love2Love", "duration": "3:10" }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "AESTHETIC",
+      "order": 3,
+      "artist": "+(KR)ystal Eyes",
+      "year": 2023,
+      "format": "CD",
+      "cover": "assets/triples/KRE.png",
+      "tracks": [
+        { "title": "Cherry 100%", "duration": "00:46" },
+        { "title": "Cherry Talk", "duration": "02:51" },
+        { "title": "Touch", "duration": "02:56" },
+        { "title": "(숨겨 봐봐) Hide & Seek", "duration": "02:53" },
+        { "title": "Deja-Vu", "duration": "02:52" },
+        { "title": "Dimension (KRE Ver.)", "duration": "03:03" }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "LOVElution",
+      "order": 4,
+      "artist": "MUHAN",
+      "year": 2023,
+      "format": "CD",
+      "cover": "assets/triples/MUHAN.png",
+      "tracks": [
+        { "title": "∞", "duration": "01:01" },
+        { "title": "Girls' Capitalism", "duration": "03:38" },
+        { "title": "복합성 (Complexity)", "duration": "02:38" },
+        { "title": "Black Soul Dress", "duration": "03:36" },
+        { "title": "Seoul Sonyo Sound", "duration": "02:30" },
+        { "title": "Cry Baby", "duration": "02:37" },
+        { "title": "Speed Love", "duration": "02:28" },
+        { "title": "Number 8", "duration": "01:15" }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Perfomante",
+      "order": 7,
+      "artist": "TripleS",
+      "year": 2024,
+      "format": "CD",
+      "cover": "assets/triples/PERFORMANTE.png",
+      "tracks": [
+        { "title": "Visual Virtue", "duration": "00:49" },
+        { "title": "Hit the Floor", "duration": "02:57" },
+        { "title": "Éclair", "duration": "02:49" },
+        { "title": "연애소설 (Love Soseol)", "duration": "02:58" },
+        { "title": "Atmosphere (VV Ver.)", "duration": "02:27" },
+        { "title": "12 Rings", "duration": "03:20" },
+        { "title": "Vision", "duration": "02:47" },
+        { "title": "Bionic Power", "duration": "02:32" },
+        { "title": "Vision@ry Vision", "duration": "00:47" }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "EVOLution",
+      "order": 5,
+      "artist": "MUJUK",
+      "year": 2023,
+      "format": "CD",
+      "cover": "assets/triples/EVOLUTION.png",
+      "tracks": [
+        { "title": "↘", "duration": "00:51" },
+        { "title": "Invincible", "duration": "03:17" },
+        { "title": "Heavy Metal Wings", "duration": "03:15" },
+        { "title": "미열 37.5", "duration": "03:41" },
+        { "title": "Moto Princess", "duration": "03:14" },
+        { "title": "Oui", "duration": "02:39" },
+        { "title": "Enhanced Flower", "duration": "01:53" }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "ACCESS",
+      "order": 1,
+      "artist": "Acid Angel from Asia",
+      "year": 2022,
+      "format": "Digital",
+      "cover": "assets/triples/aaa.png",
+      "tracks": [
+        { "title": "Access", "duration": "00:45" },
+        { "title": "Generation", "duration": "02:43" },
+        { "title": "찰나 (Charla)", "duration": "03:03" },
+        { "title": "Dimension (AAA Ver.)", "duration": "03:11" },
+        { "title": "+(82)", "duration": "00:46" }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "ASSEMBLE",
+      "order": 2,
+      "artist": "TripleS",
+      "year": 2023,
+      "format": "Digital",
+      "cover": "assets/triples/assemble.png",
+      "tracks": [
+        { "title": "Before the Rise", "duration": "00:53" },
+        { "title": "Rising", "duration": "02:39" },
+        { "title": "The Baddest", "duration": "03:34" },
+        { "title": "New Look", "duration": "03:27" },
+        { "title": "초월 (Chowall)", "duration": "01:03" }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Beyond Beauty",
+      "order": 9,
+      "artist": "msnz",
+      "year": 2025,
+      "format": "Digital",
+      "cover": "assets/triples/beyondbeauty.png",
+      "tracks": [
+        { "title": "Magic Shine New Zone", "duration": "0:51" },
+        { "title": "Fly Up (neptune)", "duration": "2:40" },
+        { "title": "Cameo Love (moon)", "duration": "2:35" },
+        { "title": "Bubble Gum Girl (sun)", "duration": "2:48" },
+        { "title": "Q&A (zenith)", "duration": "3:26" },
+        { "title": "Christmas Alone", "duration": "2:51" }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "LOVE&POP pt.1",
+      "order": 10,
+      "artist": "TripleS",
+      "year": 2026,
+      "format": "Digital",
+      "cover": "assets/triples/lnp.png",
+      "tracks": [
+        { "title": "Sad Girls Schemin'", "duration": "0:51" },
+        { "title": "Peer", "duration": "2:40" },
+        { "title": "Baby Flower", "duration": "2:35" },
+        { "title": "Type of Girl", "duration": "2:48" },
+        { "title": "Sleek", "duration": "3:26" },
+        { "title": "I Like That", "duration": "2:51" },
+        { "title": "Me Myself Mode", "duration": "2:51" }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "LOVE&POP pt.2",
+      "order": 11,
+      "artist": "TripleS",
+      "year": 2026,
+      "format": "Digital",
+      "cover": "assets/triples/lnp.png",
+      "tracks": [
+        { "title": "Sad Girls Schemin'", "duration": "0:51" },
+        { "title": "Peer", "duration": "2:40" },
+        { "title": "Baby Flower", "duration": "2:35" },
+        { "title": "Type of Girl", "duration": "2:48" },
+        { "title": "Sleek", "duration": "3:26" },
+        { "title": "I Like That", "duration": "2:51" },
+        { "title": "Me Myself Mode", "duration": "2:51" }
+      ]
+    }
+  ]
+}

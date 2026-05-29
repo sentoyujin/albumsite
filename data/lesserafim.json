@@ -1,0 +1,37 @@
+{
+  "group": "LESSERAFIM",
+  "albums": [
+    {
+      "id": 1,
+      "title": "FEARLESS",
+      "order": 1,
+      "artist": "LE SSERAFIM",
+      "year": 2024,
+      "format": "CD",
+      "cover": "assets/lesserafim/fearless.jpg",
+      "tracks": [
+        { "title": "The World Is My Oyster", "duration": "1:47" },
+        { "title": "FEARLESS", "duration": "2:48" },
+        { "title": "Blue Flame", "duration": "3:22" },
+        { "title": "The Great Mermaid", "duration": "2:58" },
+        { "title": "Sour Grapes", "duration": "3:17" }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "ANTIFRAGILE",
+      "order": 2,
+      "artist": "LE SSERAFIM",
+      "year": 2024,
+      "format": "CD",
+      "cover": "assets/lesserafim/antifragile.png",
+      "tracks": [
+        { "title": "The Hydra", "duration": "1:44" },
+        { "title": "ANTIFRAGILE", "duration": "3:04" },
+        { "title": "Impurities", "duration": "3:16" },
+        { "title": "No Celestial", "duration": "2:46" },
+        { "title": "Good Parts (when the quality is bad but I am)", "duration": "2:36" }
+      ]
+    }
+  ]
+}
