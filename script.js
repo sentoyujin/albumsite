@@ -45,39 +45,51 @@ async function loadGroup() {
   const grid = document.getElementById("album-grid");
   if (!grid || !groupParam) return;
 
-  const res = await fetch(`data/${groupParam.toLowerCase()}.json`);
-  if (!res.ok) {
+  // 1. load ALL groups first
+  const resGroups = await fetch("data/groups.json");
+  const groupsData = await resGroups.json();
+
+  // 2. find current group
+  const groupInfo = groupsData.find(
+    g => g.name.toLowerCase() === groupParam.toLowerCase()
+  );
+
+  if (!groupInfo) {
     grid.innerHTML = "<p>Group not found.</p>";
     return;
   }
 
-  const data = await res.json();
+  // 3. set header title
+  const title = document.getElementById("group-title");
+  if (title) title.textContent = groupInfo.displayName;
 
-  // header uses display name from JSON
-  const title = document.querySelector("header h1");
-  if (title) title.textContent = data.displayName || data.group;
+  // 4. set subtitle (THIS IS YOUR NEW FEATURE)
+  const subtitle = document.querySelector(".subtitle");
+  if (subtitle) subtitle.textContent = groupInfo.description;
+
+  // 5. load album file
+  const res = await fetch(`data/${groupInfo.file}`);
+  const data = await res.json();
 
   grid.innerHTML = "";
 
-  data.albums
-    .sort((a, b) => (a.order ?? 0) - (b.order ?? 0))
-    .forEach(album => {
-      const card = document.createElement("a");
-      card.href = `album.html?group=${encodeURIComponent(groupParam)}&id=${album.id}`;
-      card.className = "card";
+  data.albums.forEach(album => {
+    const card = document.createElement("a");
+    card.href = `album.html?group=${encodeURIComponent(groupParam)}&id=${album.id}`;
+    card.className = "card";
 
-      card.innerHTML = `
-        <div class="card-img-wrap">
-          <img src="${album.cover}">
-        </div>
-        <div class="card-info">
-          <span class="album-title">${album.title}</span>
-          <span class="album-artist">${album.artist}</span>
-        </div>
-      `;
+    card.innerHTML = `
+      <div class="card-img-wrap">
+        <img src="${album.cover}">
+      </div>
+      <div class="card-info">
+        <span class="album-title">${album.title}</span>
+        <span class="album-artist">${groupInfo.displayName}</span>
+      </div>
+    `;
 
-      grid.appendChild(card);
-    });
+    grid.appendChild(card);
+  });
 }
 
 // ─────────────────────────────
