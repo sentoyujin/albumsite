@@ -10,7 +10,7 @@ body {
   color: #e8e8e8;
   font-family: 'DM Sans', sans-serif;
   min-height: 100vh;
-  padding: 73px 30px;
+  padding: 83px 30px;
 }
 
 /* ── Header ── */
@@ -20,7 +20,7 @@ header {
 }
 
 header h1 {
-  font-family: "Anton", sans-serif;
+  font-family: 'Playfair Display', serif;
   font-size: 3rem;
   letter-spacing: 0.05em;
   text-transform: initial;

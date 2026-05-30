@@ -37,7 +37,7 @@ async function loadGroups() {
       grid.appendChild(card);
     });
 }
-
+document.getElementById
 // ─────────────────────────────
 // 2. GROUP PAGE (ALBUMS)
 // ─────────────────────────────
@@ -73,57 +73,74 @@ async function loadGroup() {
 
   grid.innerHTML = "";
 
-  data.albums.forEach(album => {
+  data.albums
+  .sort((a, b) => a.order - b.order)
+  .forEach(album => {
     const card = document.createElement("a");
     card.href = `album.html?group=${encodeURIComponent(groupParam)}&id=${album.id}`;
     card.className = "card";
-
     card.innerHTML = `
       <div class="card-img-wrap">
         <img src="${album.cover}">
       </div>
       <div class="card-info">
         <span class="album-title">${album.title}</span>
-        <span class="album-artist">${groupInfo.displayName}</span>
+        <span class="album-artist">${album.artist}</span>
       </div>
     `;
-
     grid.appendChild(card);
-  });
+  }); 
 }
 
 // ─────────────────────────────
 // 3. ALBUM PAGE (TRACKLIST)
 // ─────────────────────────────
 async function loadAlbum() {
+  console.log("groupParam:", groupParam);
+  console.log("albumId:", albumId);
+
   const list = document.getElementById("track-list");
   if (!list || !groupParam || !albumId) return;
 
-  const res = await fetch(`data/${groupParam.toLowerCase()}.json`);
-  if (!res.ok) return;
+  const [albumRes, groupsRes] = await Promise.all([
+    fetch(`data/${groupParam.toLowerCase()}.json`),
+    fetch("data/groups.json")
+  ]);
 
-  const data = await res.json();
+  console.log("albumRes ok:", albumRes.ok);
+  console.log("groupsRes ok:", groupsRes.ok);
+
+  if (!albumRes.ok || !groupsRes.ok) return;
+
+  const data = await albumRes.json();
+  const groupsData = await groupsRes.json();
+
+  console.log("album data:", data);
+  console.log("groups data:", groupsData);
+
   const album = data.albums.find(a => String(a.id) === String(albumId));
+  console.log("found album:", album);
 
   if (!album) return;
 
-  document.title = `${album.title} — My Record Shelf`;
+  const groupInfo = groupsData.find(
+    g => g.name.toLowerCase() === groupParam.toLowerCase()
+  );
+  console.log("found groupInfo:", groupInfo);
 
+  document.title = `${album.title} — My Record Shelf`;
   document.getElementById("album-title").textContent = album.title;
   document.getElementById("album-artist").textContent = album.artist;
   document.getElementById("album-cover").src = album.cover;
   document.getElementById("album-year").textContent = album.year;
-  document.getElementById("album-format").textContent = album.format;
 
-  // back button
   const backBtn = document.querySelector(".back-btn");
   if (backBtn && groupParam) {
-    backBtn.textContent = `← Back to ${data.displayName || groupParam}`;
+    backBtn.textContent = `← Back to ${groupInfo?.displayName || groupParam}`;
     backBtn.href = `group.html?group=${encodeURIComponent(groupParam)}`;
   }
 
   list.innerHTML = "";
-
   album.tracks.forEach(t => {
     const li = document.createElement("li");
     li.innerHTML = `
@@ -132,6 +149,37 @@ async function loadAlbum() {
     `;
     list.appendChild(li);
   });
+
+  const membersSection = document.getElementById("members-section");
+  const membersGrid = document.getElementById("members-grid");
+
+  if (
+    groupInfo?.members?.length &&
+    album.members?.length &&
+    membersSection &&
+    membersGrid
+  ) {
+    const participating = groupInfo.members
+      .filter(m => album.members.includes(m.number))
+      .sort((a, b) => a.number - b.number);
+
+    membersGrid.innerHTML = "";
+    participating.forEach(m => {
+      const el = document.createElement("div");
+      el.className = "member-card";
+      el.innerHTML = `
+        <div class="member-photo-wrap">
+          <img src="${m.photo}" alt="${m.name}" class="member-photo"
+            onerror="this.style.display='none';this.nextElementSibling.style.display='flex'"/>
+          <div class="member-photo-fallback" style="display:none;">${m.number}</div>
+        </div>
+        <span class="member-name">${m.name}</span>
+      `;
+      membersGrid.appendChild(el);
+    });
+
+    membersSection.style.display = "block";
+  }
 }
 
 // ─────────────────────────────
