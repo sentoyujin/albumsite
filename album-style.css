@@ -1,5 +1,7 @@
 /* ── Reset & Base ── */
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -8,7 +10,7 @@
 body {
   background-color: #111118;
   color: #e8e8e8;
-  font-family: 'DM Sans', sans-serif;
+  font-family: "DM Sans", sans-serif;
   min-height: 100vh;
   padding: 30px 30px;
 }
@@ -63,7 +65,7 @@ body {
 }
 
 .album-name {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 4rem;
   line-height: 1.05;
   color: #f5f0e8;
@@ -84,7 +86,7 @@ body {
 
 /* ── Tracklist ── */
 .section-label {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 1.4rem;
   margin-bottom: 20px;
   color: #f2eee6;
@@ -107,7 +109,9 @@ body {
   border: 1px solid #2a2a38;
   border-radius: 10px;
   color: #d8d8df;
-  transition: border-color 0.2s ease, transform 0.2s ease;
+  transition:
+    border-color 0.2s ease,
+    transform 0.2s ease;
 }
 
 .tracks li:hover {
@@ -176,7 +180,9 @@ body {
   border: 1px solid #2a2a38;
   border-radius: 12px;
   padding: 10px 8px 12px;
-  transition: border-color 0.2s ease, transform 0.2s ease;
+  transition:
+    border-color 0.2s ease,
+    transform 0.2s ease;
 }
 
 .member-card:hover {
@@ -212,7 +218,7 @@ body {
   align-items: center;
   justify-content: center;
   font-size: 1.2rem;
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   color: #555;
 }
 
