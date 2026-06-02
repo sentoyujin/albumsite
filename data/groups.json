@@ -1,8 +1,8 @@
 [
   {
     "name": "triples",
-    "displayName": "TripleS",
-    "description": "WAVS",
+    "displayName": "tripleS",
+    "description": "WAV",
     "cover": "assets/triples/tripleslogo.png",
     "file": "triples.json",
     "order": 1,
@@ -36,9 +36,27 @@
   {
     "name": "lesserafim",
     "displayName": "LE SSERAFIM",
-    "description": "FIMMIES",
+    "description": "FEARNOT",
     "cover": "assets/lesserafim/lsflogo.png",
     "file": "lesserafim.json",
-    "order": 2
+    "order": 3
+  },
+  {
+    "name": "kiiikiii",
+    "displayName": "KiiiKiii",
+    "description": "TiiiKiii",
+    "cover": "assets/kiiikiii/kiiikiiilogo.jpg",
+    "file": "kiiikiii.json",
+    "order": 2,
+    "members": []
+  },
+  {
+    "name": "ive",
+    "displayName": "IVE",
+    "description": "DIVE",
+    "cover": "assets/ive/ivelogo.jpg",
+    "file": "ive.json",
+    "order": 4,
+    "members": []
   }
 ]

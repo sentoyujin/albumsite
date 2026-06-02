@@ -1,0 +1,39 @@
+{
+  "group": "KiiiKiii",
+  "albums": [
+    {
+      "id": 1,
+      "title": "Uncut Gem",
+      "order": 1,
+      "artist": "KiiiKiii",
+      "year": 2025,
+      "format": "EP",
+      "cover": "assets/kiiikiii/uncutgem.png",
+      "tracks": [
+        { "title": "Debut Song", "duration": "2:02" },
+        { "title": "Groundwork", "duration": "2:32" },
+        { "title": "I Do Me", "duration": "3:10" },
+        { "title": "There They Go", "duration": "2:35" },
+        { "title": "BTG", "duration": "3:10" },
+        { "title": "One Off (한 개뿐인)", "duration": "3:05" }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Delulu Pack",
+      "order": 2,
+      "artist": "KiiiKiii",
+      "year": 2026,
+      "format": "EP",
+      "cover": "assets/kiiikiii/dllpack.png",
+      "tracks": [
+        { "title": "Delulu", "duration": "2:24" },
+        { "title": "404 (New Era)", "duration": "2:59" },
+        { "title": "Underdogs", "duration": "3:02" },
+        { "title": "Mungnyang (멍냥)", "duration": "2:56" },
+        { "title": "Dizzy", "duration": "2:32" },
+        { "title": "To Me From Me (Prod. Tablo)", "duration": "3:18" }
+      ]
+    }
+  ]
+}

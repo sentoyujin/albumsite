@@ -1,0 +1,44 @@
+{
+  "group": "IVE",
+  "albums": [
+    {
+      "id": 1,
+      "title": "ELEVEN",
+      "order": 1,
+      "artist": "IVE",
+      "year": 2021,
+      "format": "Single",
+      "cover": "assets/ive/eleven.png",
+      "tracks": [
+        { "title": "ELEVEN", "duration": "2:58" },
+        { "title": "Take It", "duration": "3:24" }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "LOVE DIVE",
+      "order": 2,
+      "artist": "IVE",
+      "year": 2022,
+      "format": "Single",
+      "cover": "assets/ive/lovedive.png",
+      "tracks": [
+        { "title": "LOVE DIVE", "duration": "2:57" },
+        { "title": "ROYAL", "duration": "3:36" }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "After LIKE",
+      "order": 3,
+      "artist": "IVE",
+      "year": 2022,
+      "format": "Single",
+      "cover": "assets/ive/afterlike.png",
+      "tracks": [
+        { "title": "After LIKE", "duration": "2:56" },
+        { "title": "My Satisfaction", "duration": "3:13" }
+      ]
+    }
+  ]
+}

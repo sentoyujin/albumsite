@@ -6,7 +6,7 @@
       "title": "FEARLESS",
       "order": 1,
       "artist": "LE SSERAFIM",
-      "year": 2024,
+      "year": 2022,
       "format": "CD",
       "cover": "assets/lesserafim/fearless.jpg",
       "tracks": [
@@ -22,7 +22,7 @@
       "title": "ANTIFRAGILE",
       "order": 2,
       "artist": "LE SSERAFIM",
-      "year": 2024,
+      "year": 2022,
       "format": "CD",
       "cover": "assets/lesserafim/antifragile.png",
       "tracks": [
@@ -31,6 +31,115 @@
         { "title": "Impurities", "duration": "3:16" },
         { "title": "No Celestial", "duration": "2:46" },
         { "title": "Good Parts (when the quality is bad but I am)", "duration": "2:36" }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "UNFORGIVEN",
+      "order": 3,
+      "artist": "LE SSERAFIM",
+      "year": 2023,
+      "format": "CD",
+      "cover": "assets/lesserafim/unforgiven.png",
+      "tracks": [
+        { "title": "The World Is My Oyster (2023 Ver.)", "duration": "1:46" },
+        { "title": "Fearless (2023 Ver.)", "duration": "2:48" },
+        { "title": "Blue Flame (2023 Ver.)", "duration": "3:21" },
+        { "title": "The Hydra", "duration": "1:44" },
+        { "title": "Antifragile", "duration": "3:04" },
+        { "title": "Impurities", "duration": "3:16" },
+        { "title": "Burn The Bridge", "duration": "2:34" },
+        { "title": "Unforgiven (feat. Nile Rodgers)", "duration": "3:02" },
+        { "title": "No-Return (Into The Unknown)", "duration": "3:04" },
+        { "title": "Eve, Psyche & The Bluebeard's Wife (이브, 프시케 그리고 푸른 수염의 아내)", "duration": "3:05" },
+        { "title": "Fearnot (피어나) (Between You, Me & The Lamppost)", "duration": "3:26" },
+        { "title": "Flash Forward", "duration": "3:15" },
+        { "title": "Fire in the Belly", "duration": "3:18" }
+      ]
+    },
+     {
+      "id": 4,
+      "title": "EASY",
+      "order": 4,
+      "artist": "LE SSERAFIM",
+      "year": 2024,
+      "format": "Mini",
+      "cover": "assets/lesserafim/easy.png",
+      "tracks": [
+        { "title": "Good Bones", "duration": "2:40" },
+        { "title": "Easy", "duration": "2:44" },
+        { "title": "Swan Song", "duration": "2:37" },
+        { "title": "Smart", "duration": "2:46" },
+        { "title": "We Got So Much", "duration": "2:45" }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "CRAZY",
+      "order": 5,
+      "artist": "LE SSERAFIM",
+      "year": 2024,
+      "format": "Mini",
+      "cover": "assets/lesserafim/crazy.png",
+      "tracks": [
+        { "title": "Chasing Lightning", "duration": "3:25" },
+        { "title": "Crazy", "duration": "2:44" },
+        { "title": "Pierrot", "duration": "2:50" },
+        { "title": "1-800-hot-n-fun", "duration": "2:53" },
+        { "title": "Crazier (미치지 못하는 이유)", "duration": "2:58" }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "HOT",
+      "order": 6,
+      "artist": "LE SSERAFIM",
+      "year": 2025,
+      "format": "Mini",
+      "cover": "assets/lesserafim/hot.png",
+      "tracks": [
+        { "title": "Born Fire", "duration": "2:16" },
+        { "title": "Hot", "duration": "2:23" },
+        { "title": "Come Over", "duration": "2:17" },
+        { "title": "Ash", "duration": "3:17" },
+        { "title": "So Cynical (Badum)", "duration": "2:35" }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Sphagetti",
+      "order": 7,
+      "artist": "LE SSERAFIM",
+      "year": 2025,
+      "format": "Single",
+      "cover": "assets/lesserafim/spag.png",
+      "tracks": [
+        { "title": "Spaghetti (feat. J-Hope of BTS)", "duration": "2:52" },
+        { "title": "Pearlies (My Oyster Is The World)", "duration": "3:08" },
+        { "title": "Spaghetti (Member Ver.)", "duration": "2:17" },
+        { "title": "Spaghetti (English Ver.) (feat. J-Hope of BTS)", "duration": "3:08" }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "PUREFLOW Pt.1",
+      "order": 8,
+      "artist": "LE SSERAFIM",
+      "year": 2026,
+      "format": "Studio",
+      "cover": "assets/lesserafim/pureflow.png",
+      "tracks": [
+        { "title": "Pureflow", "duration": "1:49" },
+        { "title": "Boompala", "duration": "2:56" },
+        { "title": "Celebration", "duration": "2:33" },
+        { "title": "Creatures", "duration": "3:08" },
+        { "title": "Iffy Iffy", "duration": "2:09" },
+        { "title": "Need Your Company (우리 어떻게 더 사귈 수 있을까)", "duration": "1:58" },
+        { "title": "Sonder", "duration": "2:46" },
+        { "title": "Saki (feat. Aliyah's Interlude)", "duration": "2:44" },
+        { "title": "Irony", "duration": "2:24" },
+        { "title": "Trust Exercise", "duration": "2:23" },
+        { "title": "Liminal Space", "duration": "2:11" }
       ]
     }
   ]
