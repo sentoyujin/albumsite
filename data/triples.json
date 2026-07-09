@@ -60,12 +60,12 @@
       "format": "CD",
       "cover": "https://res.cloudinary.com/ahlso3hu/image/upload/v1783614042/KRE_qhlhjw.png",
       "tracks": [
-        { "title": "Cherry 100%", "duration": "00:46" },
-        { "title": "Cherry Talk", "duration": "02:51" },
-        { "title": "Touch", "duration": "02:56" },
-        { "title": "(숨겨 봐봐) Hide & Seek", "duration": "02:53" },
-        { "title": "Deja-Vu", "duration": "02:52" },
-        { "title": "Dimension (KRE Ver.)", "duration": "03:03" }
+        { "title": "Cherry 100%", "duration": "0:46" },
+        { "title": "Cherry Talk", "duration": "2:51" },
+        { "title": "Touch", "duration": "2:56" },
+        { "title": "(숨겨 봐봐) Hide & Seek", "duration": "2:53" },
+        { "title": "Deja-Vu", "duration": "2:52" },
+        { "title": "Dimension (KRE Ver.)", "duration": "3:03" }
       ]
     },
     {
@@ -79,13 +79,13 @@
       "cover": "https://res.cloudinary.com/ahlso3hu/image/upload/v1783614047/MUHAN_fakizd.png",
       "tracks": [
         { "title": "∞", "duration": "01:01" },
-        { "title": "Girls' Capitalism", "duration": "03:38" },
-        { "title": "복합성 (Complexity)", "duration": "02:38" },
-        { "title": "Black Soul Dress", "duration": "03:36" },
-        { "title": "Seoul Sonyo Sound", "duration": "02:30" },
-        { "title": "Cry Baby", "duration": "02:37" },
-        { "title": "Speed Love", "duration": "02:28" },
-        { "title": "Number 8", "duration": "01:15" }
+        { "title": "Girls' Capitalism", "duration": "3:38" },
+        { "title": "복합성 (Complexity)", "duration": "2:38" },
+        { "title": "Black Soul Dress", "duration": "3:36" },
+        { "title": "Seoul Sonyo Sound", "duration": "2:30" },
+        { "title": "Cry Baby", "duration": "2:37" },
+        { "title": "Speed Love", "duration": "2:28" },
+        { "title": "Number 8", "duration": "1:15" }
       ]
     },
     {
@@ -98,15 +98,15 @@
       "format": "CD",
       "cover": "https://res.cloudinary.com/ahlso3hu/image/upload/v1783614050/prfmnt_nqomse.png",
       "tracks": [
-        { "title": "Visual Virtue", "duration": "00:49" },
-        { "title": "Hit the Floor", "duration": "02:57" },
-        { "title": "Éclair", "duration": "02:49" },
-        { "title": "연애소설 (Love Soseol)", "duration": "02:58" },
-        { "title": "Atmosphere (VV Ver.)", "duration": "02:27" },
-        { "title": "12 Rings", "duration": "03:20" },
-        { "title": "Vision", "duration": "02:47" },
-        { "title": "Bionic Power", "duration": "02:32" },
-        { "title": "Vision@ry Vision", "duration": "00:47" }
+        { "title": "Visual Virtue", "duration": "0:49" },
+        { "title": "Hit the Floor", "duration": "2:57" },
+        { "title": "Éclair", "duration": "2:49" },
+        { "title": "연애소설 (Love Soseol)", "duration": "2:58" },
+        { "title": "Atmosphere (VV Ver.)", "duration": "2:27" },
+        { "title": "12 Rings", "duration": "3:20" },
+        { "title": "Vision", "duration": "2:47" },
+        { "title": "Bionic Power", "duration": "2:32" },
+        { "title": "Vision@ry Vision", "duration": "0:47" }
       ]
     },
     {
@@ -119,13 +119,13 @@
       "format": "CD",
       "cover": "https://res.cloudinary.com/ahlso3hu/image/upload/v1783614043/EVOLUTION_b2q3iw.png",
       "tracks": [
-        { "title": "↘", "duration": "00:51" },
-        { "title": "Invincible", "duration": "03:17" },
-        { "title": "Heavy Metal Wings", "duration": "03:15" },
-        { "title": "미열 37.5", "duration": "03:41" },
-        { "title": "Moto Princess", "duration": "03:14" },
-        { "title": "Oui", "duration": "02:39" },
-        { "title": "Enhanced Flower", "duration": "01:53" }
+        { "title": "↘", "duration": "0:51" },
+        { "title": "Invincible", "duration": "3:17" },
+        { "title": "Heavy Metal Wings", "duration": "3:15" },
+        { "title": "미열 37.5", "duration": "3:41" },
+        { "title": "Moto Princess", "duration": "3:14" },
+        { "title": "Oui", "duration": "2:39" },
+        { "title": "Enhanced Flower", "duration": "1:53" }
       ]
     },
     {
@@ -138,11 +138,11 @@
       "format": "Digital",
       "cover": "https://res.cloudinary.com/ahlso3hu/image/upload/v1783614596/aaa_y0shag.jpg",
       "tracks": [
-        { "title": "Access", "duration": "00:45" },
-        { "title": "Generation", "duration": "02:43" },
-        { "title": "찰나 (Charla)", "duration": "03:03" },
-        { "title": "Dimension (AAA Ver.)", "duration": "03:11" },
-        { "title": "+(82)", "duration": "00:46" }
+        { "title": "Access", "duration": "0:45" },
+        { "title": "Generation", "duration": "2:43" },
+        { "title": "찰나 (Charla)", "duration": "3:03" },
+        { "title": "Dimension (AAA Ver.)", "duration": "3:11" },
+        { "title": "+(82)", "duration": "0:46" }
       ]
     },
     {
@@ -155,11 +155,11 @@
       "format": "Digital",
       "cover": "https://res.cloudinary.com/ahlso3hu/image/upload/v1783614040/assemble_gotzp4.png",
       "tracks": [
-        { "title": "Before the Rise", "duration": "00:53" },
-        { "title": "Rising", "duration": "02:39" },
-        { "title": "The Baddest", "duration": "03:34" },
-        { "title": "New Look", "duration": "03:27" },
-        { "title": "초월 (Chowall)", "duration": "01:03" }
+        { "title": "Before the Rise", "duration": "0:53" },
+        { "title": "Rising", "duration": "2:39" },
+        { "title": "The Baddest", "duration": "3:34" },
+        { "title": "New Look", "duration": "3:27" },
+        { "title": "초월 (Chowall)", "duration": "1:03" }
       ]
     },
     {
