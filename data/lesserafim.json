@@ -8,7 +8,7 @@
       "artist": "LE SSERAFIM",
       "year": 2022,
       "format": "CD",
-      "cover": "assets/lesserafim/fearless.jpg",
+      "cover": "https://res.cloudinary.com/ahlso3hu/image/upload/v1783614037/fearless_wtcwsp.jpg",
       "tracks": [
         { "title": "The World Is My Oyster", "duration": "1:47" },
         { "title": "FEARLESS", "duration": "2:48" },
@@ -24,7 +24,7 @@
       "artist": "LE SSERAFIM",
       "year": 2022,
       "format": "CD",
-      "cover": "assets/lesserafim/antifragile.png",
+      "cover": "https://res.cloudinary.com/ahlso3hu/image/upload/v1783614047/antifragile_nz1jft.png",
       "tracks": [
         { "title": "The Hydra", "duration": "1:44" },
         { "title": "ANTIFRAGILE", "duration": "3:04" },
@@ -40,7 +40,7 @@
       "artist": "LE SSERAFIM",
       "year": 2023,
       "format": "CD",
-      "cover": "assets/lesserafim/unforgiven.png",
+      "cover": "https://res.cloudinary.com/ahlso3hu/image/upload/v1783614040/unforgiven_wcgzcx.png",
       "tracks": [
         { "title": "The World Is My Oyster (2023 Ver.)", "duration": "1:46" },
         { "title": "Fearless (2023 Ver.)", "duration": "2:48" },
@@ -64,7 +64,7 @@
       "artist": "LE SSERAFIM",
       "year": 2024,
       "format": "Mini",
-      "cover": "assets/lesserafim/easy.png",
+      "cover": "https://res.cloudinary.com/ahlso3hu/image/upload/v1783614038/easy_o7t125.png",
       "tracks": [
         { "title": "Good Bones", "duration": "2:40" },
         { "title": "Easy", "duration": "2:44" },
@@ -80,7 +80,7 @@
       "artist": "LE SSERAFIM",
       "year": 2024,
       "format": "Mini",
-      "cover": "assets/lesserafim/crazy.png",
+      "cover": "https://res.cloudinary.com/ahlso3hu/image/upload/v1783614047/crazy_i8jv4q.png",
       "tracks": [
         { "title": "Chasing Lightning", "duration": "3:25" },
         { "title": "Crazy", "duration": "2:44" },
@@ -96,7 +96,7 @@
       "artist": "LE SSERAFIM",
       "year": 2025,
       "format": "Mini",
-      "cover": "assets/lesserafim/hot.png",
+      "cover": "https://res.cloudinary.com/ahlso3hu/image/upload/v1783614039/hot_fhipbk.png",
       "tracks": [
         { "title": "Born Fire", "duration": "2:16" },
         { "title": "Hot", "duration": "2:23" },
@@ -112,7 +112,7 @@
       "artist": "LE SSERAFIM",
       "year": 2025,
       "format": "Single",
-      "cover": "assets/lesserafim/spag.png",
+      "cover": "https://res.cloudinary.com/ahlso3hu/image/upload/v1783614041/spag_rilliq.png",
       "tracks": [
         { "title": "Spaghetti (feat. J-Hope of BTS)", "duration": "2:52" },
         { "title": "Pearlies (My Oyster Is The World)", "duration": "3:08" },
@@ -127,7 +127,7 @@
       "artist": "LE SSERAFIM",
       "year": 2026,
       "format": "Studio",
-      "cover": "assets/lesserafim/pureflow.png",
+      "cover": "https://res.cloudinary.com/ahlso3hu/image/upload/v1783614040/pureflow_mabqfc.png",
       "tracks": [
         { "title": "Pureflow", "duration": "1:49" },
         { "title": "Boompala", "duration": "2:56" },

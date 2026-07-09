@@ -8,7 +8,7 @@
       "artist": "IVE",
       "year": 2021,
       "format": "Single",
-      "cover": "assets/ive/eleven.png",
+      "cover": "https://res.cloudinary.com/ahlso3hu/image/upload/v1783614038/eleven_rbuw7z.png",
       "tracks": [
         { "title": "ELEVEN", "duration": "2:58" },
         { "title": "Take It", "duration": "3:24" }
@@ -21,7 +21,7 @@
       "artist": "IVE",
       "year": 2022,
       "format": "Single",
-      "cover": "assets/ive/lovedive.png",
+      "cover": "https://res.cloudinary.com/ahlso3hu/image/upload/v1783614039/lovedive_rvcoll.png",
       "tracks": [
         { "title": "LOVE DIVE", "duration": "2:57" },
         { "title": "ROYAL", "duration": "3:36" }
@@ -34,7 +34,7 @@
       "artist": "IVE",
       "year": 2022,
       "format": "Single",
-      "cover": "assets/ive/afterlike.png",
+      "cover": "https://res.cloudinary.com/ahlso3hu/image/upload/v1783614037/afterlike_lm5jfu.png",
       "tracks": [
         { "title": "After LIKE", "duration": "2:56" },
         { "title": "My Satisfaction", "duration": "3:13" }
